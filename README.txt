@@ -348,3 +348,64 @@ choque con el H1):
   degradado de desvanecido) siempre queda contenido dentro del hueco
   entre el texto y la tarjeta de contacto, sin importar el ancho de
   viewport.
+
+────────────────────────────────────────────────────────────
+ADAPTACIÓN A RETIROTECH | MANTENIMIENTO INFORMÁTICO EN RETIRO
+(repositorio clonado a partir de una copia anterior de la plantilla
+PymeTech; se readapta con todos los criterios vigentes de la
+subfamilia mantenimientoinformaticopyme*)
+────────────────────────────────────────────────────────────
+
+MARCA Y TEXTOS:
+- "PymeTech" → "RetiroTech" en cabecera, pie de página, JSON-LD (name)
+  y mensaje prellenado de WhatsApp ("¡Hola RetiroTech").
+- Title: "RetiroTech | Mantenimiento Informático en Retiro" (texto
+  exacto indicado por el cliente para SEO). Meta description, og:title
+  y og:description reescritos mencionando Retiro, Madrid.
+- H1 propio de 9 palabras exactas (criterio de Isra Bravo, distinto de
+  los H1 de los repos hermanos): "Resolvemos las incidencias técnicas
+  de tu empresa sin demoras."
+- Fila "Zona": "Tetuán, Madrid" → "Retiro, Madrid".
+- FAQ "¿Trabajáis solo en Madrid?" → "¿Trabajáis solo en Retiro?", con
+  la respuesta ampliada a "Retiro y el resto de Madrid".
+- Tarjeta de información de contacto: el h2 (antes "Servicios IT para
+  empresas") ahora muestra el título exacto de la web / nombre de
+  Google Business: "RetiroTech | Mantenimiento Informático en Retiro".
+- Sección de reserva de cita (#cita): kicker "Si quieres verlo con
+  calma" → "Asesoramiento gratuito".
+- Menú (escritorio y móvil): "Reunión" → "Agendar cita".
+- JSON-LD: description y areaServed actualizados a Retiro, Madrid.
+- H1: tamaño estándar de la subfamilia, clamp(44px,5.6vw,62px)
+  (aplicado directamente, sin necesidad de reducir desde 70px porque
+  esta copia partía de una plantilla más antigua).
+- .info h2: añadido line-height:1.25 para el título más largo.
+
+DOMINIO Y ENLACES:
+- canonical, og:url y JSON-LD "url" → https://mantenimientoinformaticopymeretiro.es/
+  (dominio indicado directamente por el cliente).
+- sitemap.xml y robots.txt actualizados al nuevo dominio.
+- Enlace de Google Maps actualizado en las 4 ubicaciones del sitio a
+  https://maps.app.goo.gl/DqEAa7oxZyPZ9dxx7, proporcionado por el
+  cliente.
+
+TELÉFONO Y WHATSAPP: sin cambios (+34 649 97 01 28 / +34 914 46 85 03)
+— confirmado por el cliente que es el mismo número para toda la
+familia.
+
+COLOR (a petición del cliente: "modifica el color, pero que sea
+tecnológico, no colores llamativos ni disruptivos"):
+- Nueva paleta muted índigo/violeta-pizarra, distinta tanto del
+  azul/cian original (PymeTech/PymeCare) como del teal de TecPyme, para
+  diferenciar visualmente esta marca: --blue:#0b5bd3→#5b5fa8,
+  --indigo:#5f6fff→#3d4f73, --cyan:#32c7d9→#8f93e0. Fondo oscuro base
+  (--bg/--bg2) y grises neutros sin tocar, mismo criterio que en
+  TecPyme: solo cambia el matiz de acento, no la profundidad/
+  saturación general.
+- Todos los tonos derivados (fondos de iconos claros, textos en color
+  sobre fondo oscuro, badges, bordes de hover, sombras de botones)
+  recalculados a la misma paleta, manteniendo el mismo nivel de
+  contraste que tenían antes.
+- Isotipo (assets/isotipo.svg) recoloreado a juego con la nueva
+  paleta.
+- Sin cambios en el verde de WhatsApp, el rojo de YouTube ni la banda
+  de cookies (colores de terceros / estándar de familia).
